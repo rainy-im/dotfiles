@@ -1,0 +1,90 @@
+alias l="ls"
+alias sl="ls"
+alias lh="ls -lha"
+alias ls="ls -cFG"
+alias rm="rm -rf"
+alias cp="cp -rf"
+alias bd="cd /Users/rainy/BAIDU/百度云同步盘"
+alias gd="cd /Users/rainy/Games/libs/cocos2d-x-2.2.3/projects"
+#alias python="python2.7"
+LS_COLORS='no=00:fi=00:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=31;01;05:su=37;41:'
+export LS_COLORS
+export PS1="\w (@_@)> "
+
+export CLICOLOR=1 
+export LSCOLORS=bxBxaxdxcxegedabagacad 
+
+export GOROOT=/usr/local/go
+export ANDROID=/Applications/ADT/sdk/build-tools/android-4.2.2
+
+export PATH=$ANDROID:$PATH:/usr/local/mybin:/usr/local/mysql/bin:$GOROOT/bin
+
+#export GAEROOT=/Users/rainy/Downloads/goagent/local
+export GAEROOT=/Users/rainy/Projects/Py/gae-v3.1.19/local
+export PATH=$PATH:$GAEROOT
+
+export ADTTOOLS=/Applications/ADT/sdk/tools
+export ADTPLATFORMTOOLS=/Applications/ADT/sdk/platform-tools
+
+export PATH=$PATH:$ADTTOOLS:$ADTPLATFORMTOOLS
+export PKG_CONFIG_PATH=/usr/lib/pkgconfig/:/usr/local/lib/pkgconfig:$PKG_CONFIG_PATH
+
+export PYTHONPATH=/usr/local/lib/python2.7/site-packages/:$PYTHONPATH
+
+export ANT_HOME=/Users/rainy/Downloads/apache-ant-1.9.2/bin
+export PATH=$PATH:$ANT_HOME
+export CLASSPATH=/Users/rainy/Downloads/apache-ant-1.9.2/lib
+
+export TOLUAPP=/Users/rainy/Games/libs/cocos2d-x-2.2.3/tools/tolua++
+
+export ANDROID_SDK_ROOT=/Applications/ADT/sdk
+export ANDROID_NDK_ROOT=/Users/rainy/Games/libs/android-ndk-r9c
+#export COCOS2DX_ROOT=/Users/rainy/Games/libs/cocos2d-x-2.2.3
+export COCOS2DX_ROOT=/Users/rainy/Games/libs/cocos2d-x-3.2
+export COCOS_CONSOLE_ROOT=/Users/rainy/Games/libs/cocos2d-x-3.2/tools/cocos2d-console/bin
+export NDK_ROOT=$ANDROID_NDK_ROOT
+export PATH=$PATH:$ANDROID_SDK_ROOT:$ANDROID_NDK_ROOT:$TOLUAPP
+
+
+##
+# Your previous /Users/rainy/.bash_profile file was backed up as /Users/rainy/.bash_profile.macports-saved_2012-06-24_at_22:57:25
+##
+
+# MacPorts Installer addition on 2012-06-24_at_22:57:25: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
+
+##
+# Your previous /Users/rainy/.bash_profile file was backed up as /Users/rainy/.bash_profile.macports-saved_2013-10-19_at_00:22:44
+##
+
+# MacPorts Installer addition on 2013-10-19_at_00:22:44: adding an appropriate PATH variable for use with MacPorts.
+export PATH=/opt/local/bin:/opt/local/sbin:$PATH
+# Finished adapting your PATH environment variable for use with MacPorts.
+
+
+# Add environment variable COCOS_CONSOLE_ROOT for cocos2d-x
+export COCOS_CONSOLE_ROOT=/Users/rainy/Games/libs/cocos2d-x-3.2/tools/cocos2d-console/bin
+export PATH=$COCOS_CONSOLE_ROOT:$PATH
+
+# Add environment variable ANT_ROOT for cocos2d-x
+export ANT_ROOT=/Users/rainy/Downloads/apache-ant-1.9.2/bin
+export PATH=$ANT_ROOT:$PATH
+# add by quick-cocos2d-x setup, DATE: 2014-06-24 TIME: 10:24:20
+export QUICK_COCOS2DX_ROOT="/Users/rainy/Games/libs/quick-cocos2d-x"
+export POMELO_ROOT=/Users/rainy/Projects/Node.js/node_modules/pomelo
+export PATH=$PATH:$POMELO_ROOT/bin
+
+# Setting PATH for Python 3.4
+# The orginal version is saved in .bash_profile.pysave
+PATH="/Library/Frameworks/Python.framework/Versions/3.4/bin:${PATH}"
+export PATH
+
+# Racket bin path
+PATH="/Applications/Racket v6.1.1/bin:${PATH}"
+export PATH
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.6)
+
+export GOPATH=/Users/rainy/.vim/gocode
+#export GOBIN=$GOPATH/bin
+#export PATH=$PATH:$GOPATH
