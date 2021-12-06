@@ -1,0 +1,24 @@
+{
+    "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+    "final_space": true,
+    "console_title_template": "Hi",
+    "blocks": [
+        {
+            "type": "prompt",
+            "alignment": "left",
+            "segments": [
+                {
+                    "type": "path",
+                    "style": "powerline",
+                    "powerline_symbol": "\uE0B0",
+                    "foreground": "#ffffff",
+                    "background": "#61AFEF",
+                    "properties": {
+                        "prefix": " \uE5FF ",
+                        "style": "folder"
+                    }
+                }
+            ]
+        }
+    ]
+}
